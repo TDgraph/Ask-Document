@@ -1,0 +1,9 @@
+/* Styles for the Footer component */
+.footer {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    padding: 1rem; /* Add padding around the footer */
+    background-color: #f0f0f0; /* Light grey background color */
+    border-top: 1px solid #ccc; /* Top border for separation */
+}

@@ -1,0 +1,34 @@
+/* Styles for the uploadForm Component */
+.upload-button {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover state for the upload button */
+.upload-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Active state for the upload button */
+.upload-button:active {
+    background-color: #003f7f; /* Even darker blue when active */
+}
+
+/* Styles for the plus icon */
+.plus-icon {
+    margin-right: 8px; /* Space to the right of the icon, adjust as needed */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .upload-button .upload-text {
+        display: none; /* Hide text on smaller screens */
+    }
+}

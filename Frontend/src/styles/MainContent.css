@@ -1,0 +1,7 @@
+/* Styles for the MainContent component */
+.main-content {
+    padding: 1rem; /* Add padding around the main content */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    gap: 10px; /* Space between children elements, adjust as needed */
+}

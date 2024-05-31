@@ -1,0 +1,69 @@
+/* Styles for the messages component */
+.messages {
+    flex: 1; /* Allow the messages container to grow and fill available space */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-height: none; /* Hide scrollbar on Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar on IE */
+    padding: 0.5rem 1rem; /* Padding inside the container */
+    border-radius: 20px; /* Rounded corners */
+    margin: 0.5rem 0; /* Margin on top and bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hide scrollbar on WebKit browsers */
+.messages::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styles for individual messages */
+.message {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+    margin-bottom: 10px; /* Space below each message, adjust as needed */
+}
+
+/* Styles for message content */
+.message-content {
+    display: flex; /* Use flexbox for layout */
+    background: #f1f1f1; /* Light grey background */
+    border-radius: 4px; /* Rounded corners */
+    align-items: center; /* Center children vertically */
+    padding: 10px; /* Padding inside the message content */
+}
+
+/* Styles for user messages */
+.message.user {
+    justify-content: flex-end; /* Align user messages to the right */
+}
+
+.message.user .message-content {
+    background-color: #007bff; /* Blue background for user messages */
+    color: white; /* White text color */
+    align-self: flex-end; /* Align the message content to the right */
+    margin: 20px; /* Margin around the message */
+}
+
+/* Styles for bot messages */
+.message.bot {
+    justify-content: flex-start; /* Align bot messages to the left */
+}
+
+.message.bot .message-content {
+    background-color: #f0f0f0; /* Light grey background for bot messages */
+    color: black; /* Black text color */
+    align-self: flex-start; /* Align the message content to the left */
+}
+
+/* Styles for error messages */
+.message.error .message-content {
+    align-self: center; /* Center the error message */
+    text-align: center; /* Center the text */
+}
+
+/* Styles for icons */
+.icon {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+    justify-content: center; /* Center children horizontally */
+    margin-right: 0.5rem; /* Space to the right of the icon */
+}

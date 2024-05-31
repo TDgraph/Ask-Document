@@ -1,0 +1,39 @@
+/* Styles for the messageinput component */
+.message-form {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out children elements */
+    align-items: center; /* Center children vertically */
+    width: 100%; /* Full width of the parent container */
+}
+
+/* Styles for the message input field */
+.message-input {
+    flex-grow: 1; /* Allow the input field to grow and fill available space */
+    padding: 0.5rem; /* Padding inside the input field */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 0.5rem; /* Space to the right of the input field */
+}
+
+/* Styles for the disabled state of the message input */
+.message-input:disabled {
+    background-color: #f0f0f0; /* Light grey background when disabled */
+    color: #a0a0a0; /* Grey text color when disabled */
+    cursor: not-allowed; /* Not-allowed cursor when disabled */
+}
+
+/* Styles for the send button */
+.send-button {
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Styles for the disabled state of the send button */
+.send-button:disabled {
+    background-color: #cccccc; /* Light grey background when disabled */
+    cursor: not-allowed; /* Not-allowed cursor when disabled */
+}

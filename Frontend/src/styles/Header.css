@@ -1,0 +1,52 @@
+/* Styles for the Header component */
+.header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out children elements */
+    align-items: center; /* Center children vertically */
+    padding: 1rem; /* Add padding around the header */
+    background-color: #f0f0f0; /* Light grey background color */
+    border-bottom: 1px solid #ccc; /* Bottom border for separation */
+}
+
+/* Styles for the logo container */
+.logo-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+}
+
+/* Styles for the logo image */
+.logo {
+    height: 40px; /* Adjust the size as needed */
+    margin-right: 1rem; /* Add space to the right of the logo */
+}
+
+/* Styles for the upload container */
+.upload-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+    margin-left: auto; /* Push the upload container to the right */
+}
+
+/* Styles for the document info container */
+.document-info {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+    margin-right: 1rem; /* Add space to the right of the document info */
+    padding: 0.5rem; /* Add padding inside the container */
+    background-color: #ffffff; /* White background color */
+    border: 1px solid #ccc; /* Border with light grey color */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for the document info icon */
+.document-info .fas {
+    margin-right: 0.5rem; /* Add space to the right of the icon */
+    color: #007bff; /* Blue color for the icon */
+}
+
+/* Styles for the document name text */
+.document-name {
+    font-size: 1rem; /* Set font size */
+    color: #333; /* Dark grey color for text */
+}

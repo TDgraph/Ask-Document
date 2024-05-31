@@ -1,0 +1,27 @@
+/* App Component Styles */
+.App {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  height: 100vh; /* Full viewport height */
+  font-family: Arial, sans-serif; /* Set font family */
+}
+
+/* Header Component Styles */
+.header {
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* MainContent Component Styles */
+.main-content {
+  flex-grow: 1; /* Allow to grow and fill available space */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  padding: 1rem; /* Add padding around content */
+  background-color: #f8f9fa; /* Light grey background color */
+}
+
+/* Footer Component Styles */
+.footer {
+  flex-shrink: 0; /* Prevent shrinking */
+  border-top: 1px solid #ccc; /* Add top border */
+  background-color: #ffffff; /* White background color */
+}

@@ -1,0 +1,8 @@
+/* Styles for the document name display component */
+.doc-display {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center children vertically */
+    padding: 0; /* No padding inside the container */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
